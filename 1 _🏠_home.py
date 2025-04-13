@@ -14,9 +14,10 @@ st.markdown("# FIFA 23 OFFICIAL DATASET ⚽️")
 
 st.sidebar.markdown("Desenvolvido por [Klisman Melo]('https://github.com/klismanmelo')")
 
-btn = st.button("Acesse os dados no Kagle")
-if btn:
-    webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+btn = st.link_button(
+    "Acesse os dados no Kagle",
+    "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data"
+)
 
 st.markdown(
     """
